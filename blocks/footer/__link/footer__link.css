@@ -1,4 +1,4 @@
-.footer__links_link {
+.footer__link {
     font-size: 16px;
     line-height: 18px;
     color: #fff;
@@ -8,19 +8,19 @@
     margin-right: 18px;
 }
 
-.footer__links_link:last-child {
+.footer__link:last-child {
     margin-right: 0;
 }
 
 @media screen and (max-width: 767px) {
-    .footer__links_link {
+    .footer__link {
         display: flex;
         font-size: 24px;
         line-height: 24px;
         margin: 0 0 32px;
     }
 
-    .footer__links_link:last-child {
+    .footer__link:last-child {
         margin-bottom: 48px;
     }
 }

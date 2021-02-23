@@ -1,4 +1,4 @@
-.place__paragraph_description {
+.place__description {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     font-size: 18px;
@@ -8,14 +8,14 @@
     }
 
     @media screen and (max-width: 1023px) {
-        .place__paragraph_description {
+        .place__pdescription {
             font-size: 16px;
             line-height: 26px;
         }
     }
 
     @media screen and (max-width: 767px) {
-        .place__paragraph_description {
+        .place__description {
             font-size: 16px;
             line-height: 26px;
             grid-row: 4 / 5;
