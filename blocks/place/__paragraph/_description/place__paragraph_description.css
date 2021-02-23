@@ -1,0 +1,23 @@
+.place__paragraph_description {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    font-size: 18px;
+    line-height: 29px;
+    margin-top: 0;
+    margin-bottom: 26px;
+    }
+
+    @media screen and (max-width: 1023px) {
+        .place__paragraph_description {
+            font-size: 16px;
+            line-height: 26px;
+        }
+    }
+
+    @media screen and (max-width: 767px) {
+        .place__paragraph_description {
+            font-size: 16px;
+            line-height: 26px;
+            grid-row: 4 / 5;
+        }
+    }

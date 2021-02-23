@@ -1,0 +1,28 @@
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(213px, 1fr));
+    margin: 0 auto;
+    max-width: calc(100% - 2*48px);
+    gap: 16px;
+}
+
+@media screen and (max-width: 1279px) {
+    .photo-grid {
+        gap: 14px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .photo-grid {
+        gap: 16px;
+        max-width: calc(100% - 2*24px);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .photo-grid {
+        gap: 12px;
+        max-width: calc(100% - 2*16px);
+    }
+}
