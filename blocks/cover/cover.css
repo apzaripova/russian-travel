@@ -1,6 +1,6 @@
 .cover {
     background-image: url('./../../images/cover-trains.jpg');
-    width: 100%;
+    width: calc(100% - 2*48px);
     min-height: 740px;
     display: flex;
     flex-direction: column;
@@ -34,6 +34,7 @@
 @media screen and (max-width: 1279px) {
     .cover {
         min-height: 640px;
+        width: 100%;
     }
 }
 
