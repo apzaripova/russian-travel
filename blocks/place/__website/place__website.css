@@ -9,5 +9,7 @@
         grid-row: 2 / 3;
         grid-column: 1;
         align-self: flex-start;
+        width: calc(100% - 2*16px);
+        margin: 0 auto;
     }
 }

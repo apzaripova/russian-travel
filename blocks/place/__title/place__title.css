@@ -20,6 +20,7 @@
         .place__title {
             font-size: 32px;
             line-height: 35px;
-            grid-row: 1 / 2;
+            width: calc(100% - 2*16px);
+            margin: 0 auto;
         }
     }
