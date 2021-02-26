@@ -3,13 +3,11 @@
     grid-row: 2 / 3;
     font-size: 18px;
     line-height: 29px;
-    margin-top: 0;
-    margin-bottom: 26px;
-    margin: 0 auto;
+    margin: 0 auto 26px;
     }
 
     @media screen and (max-width: 1023px) {
-        .place__pdescription {
+        .place__description {
             font-size: 16px;
             line-height: 26px;
         }
@@ -19,7 +17,5 @@
         .place__description {
             grid-row: 4 / 5;
             width: calc(100% - 2*16px);
-            font-size: 16px;
-            line-height: 26px;
         }
     }

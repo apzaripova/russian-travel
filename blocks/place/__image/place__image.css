@@ -4,11 +4,11 @@
     object-fit: cover;
     grid-row: 2 / 3;
     grid-column: 1 /2;
+    min-height: 320px;
     }
 
 
     @media screen and (max-width: 767px) {
         .place__image {
             grid-row: 3 / 4;
-        }
     }
